@@ -40,7 +40,7 @@
   <!-- Advanced Settings -->
   <string name="incall_screen_settings">通話画面の設定</string>
   <string name="show_ssn_label">イベントの通知</string>
-  <string name="show_ssn_summary">通話の処理に関連するさまざまなネットワークイベントの通知を表示する</string>
+  <string name="show_ssn_summary">通話の処理に関連する様々なネットワークイベントの通知を表示する</string>
   <!-- Toasts for various transient network events -->
   <!-- Toast text for Unconditional Call Forwarding enabled  -->
   <string name="call_notif_unconditionalCF">無条件の着信転送が有効です</string>
