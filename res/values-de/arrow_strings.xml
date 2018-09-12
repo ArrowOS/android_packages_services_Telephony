@@ -23,22 +23,22 @@
   <string name="preferred_network_mode_td_scdma_gsm_choice">TD-SCDMA/GSM</string>
   <string name="preferred_network_mode_td_scdma_lte_choice">TD-SCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_wcdma_choice">TD-SCDMA/WCDMA</string>
-  <string name="preferred_network_mode_td_scdma_only_choice">TD-SCDMA only</string>
+  <string name="preferred_network_mode_td_scdma_only_choice">Nur TD-SCDMA</string>
   <string name="preferred_network_mode_lte_wcdma_choice">LTE/WCDMA</string>
   <string name="preferred_network_mode_lte_choice">LTE</string>
   <string name="preferred_network_mode_global_choice">Global</string>
   <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA + LTE/EvDo</string>
   <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">CDMA/EvDo/GSM/WCDMA</string>
-  <string name="preferred_network_mode_evdo_only_choice">EvDo only</string>
-  <string name="preferred_network_mode_cdma_wo_evdo_choice">CDMA w/o EvDo</string>
-  <string name="preferred_network_mode_cdma_evdo_auto_choice">CDMA/EvDo auto</string>
-  <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA auto</string>
-  <string name="preferred_network_mode_wcdma_only_choice">WCDMA only</string>
-  <string name="preferred_network_mode_gsm_only_choice">GSM only</string>
-  <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA preferred</string>
+  <string name="preferred_network_mode_evdo_only_choice">Nur EvDo</string>
+  <string name="preferred_network_mode_cdma_wo_evdo_choice">CDMA ohne EvDo</string>
+  <string name="preferred_network_mode_cdma_evdo_auto_choice">CDMA/EvDo automatisch</string>
+  <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA automatisch</string>
+  <string name="preferred_network_mode_wcdma_only_choice">Nur WCDMA</string>
+  <string name="preferred_network_mode_gsm_only_choice">Nur GSM</string>
+  <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA bevorzugt</string>
   <!-- Advanced Settings -->
-  <string name="incall_screen_settings">In-call screen settings</string>
+  <string name="incall_screen_settings">Anrufbildschirm-Einstellungen</string>
   <string name="show_ssn_label">Event notification</string>
   <string name="show_ssn_summary">Show a notification for various network events related to call handling</string>
   <!-- Toasts for various transient network events -->

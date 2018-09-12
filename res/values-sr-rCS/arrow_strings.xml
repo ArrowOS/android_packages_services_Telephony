@@ -23,24 +23,24 @@
   <string name="preferred_network_mode_td_scdma_gsm_choice">TD-SCDMA/GSM</string>
   <string name="preferred_network_mode_td_scdma_lte_choice">TD-SCDMA/LTE</string>
   <string name="preferred_network_mode_td_scdma_wcdma_choice">TD-SCDMA/WCDMA</string>
-  <string name="preferred_network_mode_td_scdma_only_choice">TD-SCDMA בלבד</string>
+  <string name="preferred_network_mode_td_scdma_only_choice">TD-SCDMA only</string>
   <string name="preferred_network_mode_lte_wcdma_choice">LTE/WCDMA</string>
   <string name="preferred_network_mode_lte_choice">LTE</string>
   <string name="preferred_network_mode_global_choice">Global</string>
   <string name="preferred_network_mode_gsm_wcdma_lte_choice">GSM/WCDMA/LTE</string>
   <string name="preferred_network_mode_cdma_lte_evdo_choice">CDMA + LTE/EvDo</string>
   <string name="preferred_network_mode_cdma_evdo_gsm_wcdma_choice">CDMA/EvDo/GSM/WCDMA</string>
-  <string name="preferred_network_mode_evdo_only_choice">EvDo בלבד</string>
-  <string name="preferred_network_mode_cdma_wo_evdo_choice">‏CDMA ללא EvDo</string>
-  <string name="preferred_network_mode_cdma_evdo_auto_choice">‏CDMA/EvDo אוטומטי</string>
-  <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/‏WCDMA אוטומטי</string>
-  <string name="preferred_network_mode_wcdma_only_choice">‏WCDMA בלבד</string>
-  <string name="preferred_network_mode_gsm_only_choice">GSM בלבד</string>
-  <string name="preferred_network_mode_gsm_wcdma_preferred_choice">‏GSM/WCDMA מועדף</string>
+  <string name="preferred_network_mode_evdo_only_choice">EvDo only</string>
+  <string name="preferred_network_mode_cdma_wo_evdo_choice">CDMA w/o EvDo</string>
+  <string name="preferred_network_mode_cdma_evdo_auto_choice">CDMA/EvDo auto</string>
+  <string name="preferred_network_mode_gsm_wcdma_auto_choice">GSM/WCDMA auto</string>
+  <string name="preferred_network_mode_wcdma_only_choice">WCDMA only</string>
+  <string name="preferred_network_mode_gsm_only_choice">GSM only</string>
+  <string name="preferred_network_mode_gsm_wcdma_preferred_choice">GSM/WCDMA preferred</string>
   <!-- Advanced Settings -->
-  <string name="incall_screen_settings">הגדרות תצוגה במהלך שיחה</string>
-  <string name="show_ssn_label">התראת אירוע</string>
-  <string name="show_ssn_summary">הצגת התראה על מגוון אירוע רשת הקשורים בטיפול בשיחות</string>
+  <string name="incall_screen_settings">In-call screen settings</string>
+  <string name="show_ssn_label">Event notification</string>
+  <string name="show_ssn_summary">Show a notification for various network events related to call handling</string>
   <!-- Toasts for various transient network events -->
   <!-- Toast text for Unconditional Call Forwarding enabled  -->
   <string name="call_notif_unconditionalCF">Unconditional call forwarding active</string>
@@ -59,13 +59,13 @@
   <!-- In-call screen: status label when MO call gets deflected to another party -->
   <string name="call_notif_call_deflected">Call forwarded by remote party</string>
   <!-- Toast text for incoming call being forwarded to other remote party  -->
-  <string name="call_notif_MTcall_forwarding">השיחה הנכנסת מועברת</string>
+  <string name="call_notif_MTcall_forwarding">Incoming call is forwarded</string>
   <!-- Toast text for incoming call which is part of MultiParty Call -->
-  <string name="call_notif_multipartycall">שיחת ועידה</string>
+  <string name="call_notif_multipartycall">Multi-party call</string>
   <!-- Toast text for incoming call which is answered,put on hold & then released -->
-  <string name="call_notif_callonhold_released">השיחה שוחררה מרחוק</string>
+  <string name="call_notif_callonhold_released">Call released remotely</string>
   <!-- Toast text for incoming call forward check received -->
-  <string name="call_notif_forwardcheckreceived">השיחה הועברה</string>
+  <string name="call_notif_forwardcheckreceived">Call was forwarded</string>
   <!-- Toast text for incoming call connecting through ECT -->
   <string name="call_notif_callconnectingect">Call connecting through explicit call transfer</string>
   <!-- Toast text for incoming call connected through ECT -->
