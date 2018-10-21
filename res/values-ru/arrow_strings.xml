@@ -114,39 +114,49 @@
   <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
   <string name="callFailed_bearer_service_not_implemented">Обработка данных нереализована</string>
   <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
-  <string name="callFailed_requested_facility_not_implemented">Requested facility not implemented</string>
+  <string name="callFailed_requested_facility_not_implemented">Затребованная услуга не реализована</string>
   <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
   <string name="callFailed_only_digital_information_bearer_available">Доступ к информации ограничен</string>
   <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
-  <string name="callFailed_service_or_option_not_implemented">Service or option not implemented, unspecified</string>
+  <string name="callFailed_service_or_option_not_implemented">Сервис или опция неприменимы, или не определены</string>
   <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
-  <string name="callFailed_invalid_transaction_identifier">Invalid transaction identifier value</string>
+  <string name="callFailed_invalid_transaction_identifier">Недопустимое значение идентификатора транзакции</string>
   <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
-  <string name="callFailed_user_not_member_of_CUG">User not member of CUG</string>
+  <string name="callFailed_user_not_member_of_CUG">Абонент не является членом закрытой абонентской группы</string>
   <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
-  <string name="callFailed_incompatible_destination">Incompatible destination</string>
+  <string name="callFailed_incompatible_destination">Несовместимый адресат</string>
   <!-- Text for CallFailCause.INVALID_TRANSIT_NW_SELECTION = 91 -->
-  <string name="callFailed_invalid_transit_NW_selection">Invalid transit network selection</string>
+  <string name="callFailed_invalid_transit_NW_selection">Выбрана неверная транзитная сеть</string>
   <!-- Text for CallFailCause.SEMANTICALLY_INCORRECT_MESSAGE = 95 -->
-  <string name="callFailed_semantically_incorrect_message">Semantically incorrect message</string>
+  <string name="callFailed_semantically_incorrect_message">Семантически некорректное сообщение</string>
   <!-- Text for CallFailCause.INVALID_MANDATORY_INFORMATION = 96 -->
-  <string name="callFailed_invalid_mandatory_information">Invalid mandatory information</string>
+  <string name="callFailed_invalid_mandatory_information">Неверная обязательная информация</string>
   <!-- Text for CallFailCause.MESSAGE_TYPE_NON_IMPLEMENTED = 97 -->
-  <string name="callFailed_message_type_non_implemented">Message type non-existent or not implemented</string>
+  <string name="callFailed_message_type_non_implemented">Тип сообщения не существует или не поддерживается</string>
   <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
-  <string name="callFailed_message_type_not_compatible_with_protocol_state">Message type not compatible with protocol state</string>
+  <string name="callFailed_message_type_not_compatible_with_protocol_state">Тип сообщения, несовместимый с состоянием протокола</string>
   <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
-  <string name="callFailed_information_element_non_existent">Information element non,existent or not implemented</string>
+  <string name="callFailed_information_element_non_existent">Информационный элемент не существует или не поддерживается</string>
   <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
-  <string name="callFailed_conditional_IE_error">Conditional IE error</string>
+  <string name="callFailed_conditional_IE_error">Условная ошибка соед. оборудования</string>
   <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
-  <string name="callFailed_message_not_compatible_with_protocol_state">Message not compatible with protocol state</string>
+  <string name="callFailed_message_not_compatible_with_protocol_state">Тип сообщения, несовместимый с состоянием протокола</string>
   <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
-  <string name="callFailed_recovery_on_timer_expired">Recovery on timer expiry</string>
+  <string name="callFailed_recovery_on_timer_expired">Восстановлено по истечении таймера</string>
   <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
-  <string name="callFailed_protocol_error_unspecified">Protocol error, unspecified</string>
+  <string name="callFailed_protocol_error_unspecified">Неизвестная ошибка протокола</string>
   <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
-  <string name="callFailed_interworking_unspecified">Interworking, unspecified</string>
+  <string name="callFailed_interworking_unspecified">Нет согласования параметров передачи данных</string>
   <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
   <string name="callFailed_non_selected_user_clearing">Очистка не задана пользователем</string>
+  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+  <string name="callFailed_dialToDialVideo">DIAL request modified to Video DIAL.</string>
+  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+  <string name="callFailed_dialVideoToSs">Video DIAL request modified to SS request.</string>
+  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+  <string name="callFailed_dialVideoToUssd">Video DIAL request modified to USSD request.</string>
+  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+  <string name="callFailed_dialVideoToDial">Video DIAL request modified to DIAL.</string>
+  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+  <string name="callFailed_dialVideoToDialVideo">Video DIAL request modified to Video DIAL with different number.</string>
 </resources>

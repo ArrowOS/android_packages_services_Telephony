@@ -19,7 +19,7 @@
   <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
   <string name="callFailed_no_circuit_avail">No circuit availiable</string>
   <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
-  <string name="callFailed_network_out_of_order">Network out of order</string>
+  <string name="callFailed_network_out_of_order">Sieć niedostępna</string>
   <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
   <string name="callFailed_no_route_to_destination">No route to destination</string>
   <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
@@ -29,27 +29,27 @@
   <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
   <string name="callFailed_normal">Normall call clearing</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
-  <string name="callFailed_no_user_responding">No user responding</string>
+  <string name="callFailed_no_user_responding">Użytkownik nie odpowiada</string>
   <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
   <string name="callFailed_no_answer_from_user">User alerting, no answer</string>
   <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
-  <string name="callFailed_call_rejected">Call rejected</string>
+  <string name="callFailed_call_rejected">Połączenie odrzucone</string>
   <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
-  <string name="callFailed_number_changed">Number changed</string>
+  <string name="callFailed_number_changed">Zmieniono numer</string>
   <!-- Text for CallFailCause.PREEMPTION = 25 -->
   <string name="callFailed_preemption">Pre-emption</string>
   <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
   <string name="callFailed_destination_out_of_order">Destination out of order</string>
   <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
-  <string name="callFailed_invalid_number_format">Invalid number format (incomplete number)</string>
+  <string name="callFailed_invalid_number_format">Nieprawidłowy format numeru (numer niekompletny)</string>
   <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
   <string name="callFailed_facility_rejected">Facility rejected</string>
   <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
   <string name="callFailed_resp_to_status_enquiry">Response to STATUS ENQUIRY</string>
   <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
-  <string name="callFailed_normal_unspecified">Normal, unspecified</string>
+  <string name="callFailed_normal_unspecified">Normalny, nieokreślony</string>
   <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
-  <string name="callFailed_tempopary_failure">Temporary failure</string>
+  <string name="callFailed_tempopary_failure">Tymczasowa awaria</string>
   <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
   <string name="callFailed_switching_equipment_congestion">Switching equipment congestion</string>
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
@@ -103,9 +103,19 @@
   <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
   <string name="callFailed_recovery_on_timer_expired">Recovery on timer expiry</string>
   <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
-  <string name="callFailed_protocol_error_unspecified">Protocol error, unspecified</string>
+  <string name="callFailed_protocol_error_unspecified">Błąd protokołu, nieokreślony</string>
   <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
   <string name="callFailed_interworking_unspecified">Interworking, unspecified</string>
   <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
   <string name="callFailed_non_selected_user_clearing">Non selected user clearing</string>
+  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+  <string name="callFailed_dialToDialVideo">DIAL request modified to Video DIAL.</string>
+  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+  <string name="callFailed_dialVideoToSs">Video DIAL request modified to SS request.</string>
+  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+  <string name="callFailed_dialVideoToUssd">Video DIAL request modified to USSD request.</string>
+  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+  <string name="callFailed_dialVideoToDial">Video DIAL request modified to DIAL.</string>
+  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+  <string name="callFailed_dialVideoToDialVideo">Video DIAL request modified to Video DIAL with different number.</string>
 </resources>
