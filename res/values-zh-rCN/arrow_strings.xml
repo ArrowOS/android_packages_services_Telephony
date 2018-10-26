@@ -109,13 +109,13 @@
   <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
   <string name="callFailed_non_selected_user_clearing">非选定用户清除</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialToDialVideo">DIAL request modified to Video DIAL.</string>
+  <string name="callFailed_dialToDialVideo">通话请求修改为视频通话。</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToSs">Video DIAL request modified to SS request.</string>
+  <string name="callFailed_dialVideoToSs">视频通话请求已修改为 SS 请求。</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToUssd">Video DIAL request modified to USSD request.</string>
+  <string name="callFailed_dialVideoToUssd">视频通话请求已修改为USSD请求。</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToDial">Video DIAL request modified to DIAL.</string>
+  <string name="callFailed_dialVideoToDial">视频通话请求修改为拨号</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToDialVideo">Video DIAL request modified to Video DIAL with different number.</string>
+  <string name="callFailed_dialVideoToDialVideo">视频通话请求已修改为不同号码的视频通话</string>
 </resources>

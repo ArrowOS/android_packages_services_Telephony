@@ -109,13 +109,13 @@
   <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
   <string name="callFailed_non_selected_user_clearing">Seçilmemiş kullanıcı temizleniyor</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialToDialVideo">DIAL request modified to Video DIAL.</string>
+  <string name="callFailed_dialToDialVideo">Arama isteği Video arama isteği olarak değiştirildi.</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToSs">Video DIAL request modified to SS request.</string>
+  <string name="callFailed_dialVideoToSs">Video arama isteği SS isteği ile değiştirildi.</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToUssd">Video DIAL request modified to USSD request.</string>
+  <string name="callFailed_dialVideoToUssd">Video arama isteği USSD isteği ile değiştirildi.</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToDial">Video DIAL request modified to DIAL.</string>
+  <string name="callFailed_dialVideoToDial">Video arama isteği Arama isteği ile değiştirildi.</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToDialVideo">Video DIAL request modified to Video DIAL with different number.</string>
+  <string name="callFailed_dialVideoToDialVideo">Video arama isteği farklı numaralı Video arama isteği olarak değiştirildi.</string>
 </resources>

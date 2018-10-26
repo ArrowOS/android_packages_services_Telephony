@@ -109,13 +109,13 @@
   <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
   <string name="callFailed_non_selected_user_clearing">Objasnění nebylo zvoleno uživatelem</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialToDialVideo">DIAL request modified to Video DIAL.</string>
+  <string name="callFailed_dialToDialVideo">Požadavek DIAL změněn na požadavek Video DIAL.</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToSs">Video DIAL request modified to SS request.</string>
+  <string name="callFailed_dialVideoToSs">Požadavek Video DIAL změněn na požadavek SS.</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToUssd">Video DIAL request modified to USSD request.</string>
+  <string name="callFailed_dialVideoToUssd">Požadavek Video DIAL změněn na požadavek USSD.</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToDial">Video DIAL request modified to DIAL.</string>
+  <string name="callFailed_dialVideoToDial">Požadavek Video DIAL změněn na požadavek DIAL.</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToDialVideo">Video DIAL request modified to Video DIAL with different number.</string>
+  <string name="callFailed_dialVideoToDialVideo">Požadavek Video DIAL byl změněn na požadavek Video DIAL s jiným číslem.</string>
 </resources>

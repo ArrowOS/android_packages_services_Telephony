@@ -49,7 +49,7 @@
   <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
   <string name="callFailed_normal_unspecified">Normal, unspecified</string>
   <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
-  <string name="callFailed_tempopary_failure">Temporary failure</string>
+  <string name="callFailed_tempopary_failure">Temporärer Fehler</string>
   <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
   <string name="callFailed_switching_equipment_congestion">Switching equipment congestion</string>
   <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->

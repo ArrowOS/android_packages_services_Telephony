@@ -150,13 +150,13 @@
   <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
   <string name="callFailed_non_selected_user_clearing">Очистка не задана пользователем</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialToDialVideo">DIAL request modified to Video DIAL.</string>
+  <string name="callFailed_dialToDialVideo">Звонок преобразован в видеозвонок.</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToSs">Video DIAL request modified to SS request.</string>
+  <string name="callFailed_dialVideoToSs">Видеозвонок преобразован в SS-запрос.</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToUssd">Video DIAL request modified to USSD request.</string>
+  <string name="callFailed_dialVideoToUssd">Видеозвонок преобразован в USSD-запрос.</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToDial">Video DIAL request modified to DIAL.</string>
+  <string name="callFailed_dialVideoToDial">Видеозвонок преобразован в обычный.</string>
   <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToDialVideo">Video DIAL request modified to Video DIAL with different number.</string>
+  <string name="callFailed_dialVideoToDialVideo">Видеозвонок преобразован в видеозвонок с другим номером.</string>
 </resources>
