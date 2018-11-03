@@ -15,148 +15,107 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Supplementary for Clear Code -->
-  <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
-  <string name="callFailed_no_circuit_avail">Нет доступного подключения</string>
-  <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
-  <string name="callFailed_network_out_of_order">Сеть недоступна</string>
-  <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
-  <string name="callFailed_no_route_to_destination">Нет доступного маршрута</string>
-  <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
-  <string name="callFailed_channel_unacceptable">Недопустимый канал</string>
-  <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
-  <string name="callFailed_operator_determined_barring">Запрещены оператором</string>
-  <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
-  <string name="callFailed_normal">Нормальное завершение вызова</string>
-  <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
-  <string name="callFailed_no_user_responding">Абонент не отвечает</string>
-  <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
-  <string name="callFailed_no_answer_from_user">Оповещение пользователя, нет ответа</string>
-  <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
-  <string name="callFailed_call_rejected">Вызов отклонен</string>
-  <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
-  <string name="callFailed_number_changed">Номер изменён</string>
-  <!-- Text for CallFailCause.PREEMPTION = 25 -->
-  <string name="callFailed_preemption">Упреждение</string>
-  <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
-  <string name="callFailed_destination_out_of_order">Заданное направление не обслуживается</string>
-  <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
-  <string name="callFailed_invalid_number_format">Неправильно набран номер</string>
-  <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
-  <string name="callFailed_facility_rejected">Вызов отклонён</string>
-  <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
-  <string name="callFailed_resp_to_status_enquiry">Отвечать на запросы о состоянии</string>
-  <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
-  <string name="callFailed_normal_unspecified">Нормальный, не уточнено</string>
-  <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
-  <string name="callFailed_tempopary_failure">Временная ошибка</string>
-  <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
-  <string name="callFailed_switching_equipment_congestion">Сеть перегружена</string>
-  <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
-  <string name="callFailed_access_information_discarded">
-
-Запрос на доступ отклонён
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</string>
-  <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
-  <string name="callFailed_requested_circuit_or_channel_not_available">Запрашиваемая сеть недоступна</string>
-  <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
-  <string name="callFailed_resources_unavailable_or_unspecified">Ресурс недоступен или не определён</string>
-  <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
-  <string name="callFailed_QOS_unavailable">Качество обслуживания недоступно</string>
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
-  <string name="callFailed_requested_facility_not_subscribed">Нет подписки на запрашиваемую услугу</string>
-  <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
-  <string name="callFailed_incoming_calls_barred_within_CUG">Входящие вызовы ограничены в пределах закрытой абонентской группы</string>
-  <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
-  <string name="callFailed_bearer_capability_not_authorized">Нет прав на обработку данных</string>
-  <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
-  <string name="callFailed_bearer_capability_unavailable">Обработка данных недоступна в настоящий момент</string>
-  <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
-  <string name="callFailed_service_option_not_available">Служба недоступна</string>
-  <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
-  <string name="callFailed_bearer_service_not_implemented">Обработка данных нереализована</string>
-  <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
-  <string name="callFailed_requested_facility_not_implemented">Затребованная услуга не реализована</string>
-  <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
-  <string name="callFailed_only_digital_information_bearer_available">Доступ к информации ограничен</string>
-  <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
-  <string name="callFailed_service_or_option_not_implemented">Сервис или опция неприменимы, или не определены</string>
-  <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
-  <string name="callFailed_invalid_transaction_identifier">Недопустимое значение идентификатора транзакции</string>
-  <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
-  <string name="callFailed_user_not_member_of_CUG">Абонент не является членом закрытой абонентской группы</string>
-  <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
-  <string name="callFailed_incompatible_destination">Несовместимый адресат</string>
-  <!-- Text for CallFailCause.INVALID_TRANSIT_NW_SELECTION = 91 -->
-  <string name="callFailed_invalid_transit_NW_selection">Выбрана неверная транзитная сеть</string>
-  <!-- Text for CallFailCause.SEMANTICALLY_INCORRECT_MESSAGE = 95 -->
-  <string name="callFailed_semantically_incorrect_message">Семантически некорректное сообщение</string>
-  <!-- Text for CallFailCause.INVALID_MANDATORY_INFORMATION = 96 -->
-  <string name="callFailed_invalid_mandatory_information">Неверная обязательная информация</string>
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NON_IMPLEMENTED = 97 -->
-  <string name="callFailed_message_type_non_implemented">Тип сообщения не существует или не поддерживается</string>
-  <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
-  <string name="callFailed_message_type_not_compatible_with_protocol_state">Тип сообщения, несовместимый с состоянием протокола</string>
-  <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
-  <string name="callFailed_information_element_non_existent">Информационный элемент не существует или не поддерживается</string>
-  <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
-  <string name="callFailed_conditional_IE_error">Условная ошибка соед. оборудования</string>
-  <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
-  <string name="callFailed_message_not_compatible_with_protocol_state">Тип сообщения, несовместимый с состоянием протокола</string>
-  <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
-  <string name="callFailed_recovery_on_timer_expired">Восстановлено по истечении таймера</string>
-  <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
-  <string name="callFailed_protocol_error_unspecified">Неизвестная ошибка протокола</string>
-  <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
-  <string name="callFailed_interworking_unspecified">Нет согласования параметров передачи данных</string>
-  <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
-  <string name="callFailed_non_selected_user_clearing">Очистка не задана пользователем</string>
-  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialToDialVideo">Звонок преобразован в видеозвонок.</string>
-  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToSs">Видеозвонок преобразован в SS-запрос.</string>
-  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToUssd">Видеозвонок преобразован в USSD-запрос.</string>
-  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToDial">Видеозвонок преобразован в обычный.</string>
-  <!-- In-call screen: call failure reason (call modified to call with modified data) -->
-  <string name="callFailed_dialVideoToDialVideo">Видеозвонок преобразован в видеозвонок с другим номером.</string>
+    <!-- Supplementary for Clear Code -->
+    <!-- Text for CallFailCause.NO_CIRCUIT_AVAIL = 34 -->
+    <string name="callFailed_no_circuit_avail">Нет доступного подключения</string>
+    <!-- Text for CallFailCause.NETWORK_OUT_OF_ORDER = 38 -->
+    <string name="callFailed_network_out_of_order">Сеть недоступна</string>
+    <!-- Text for CallFailCause.NO_ROUTE_TO_DESTINAON = 3 -->
+    <string name="callFailed_no_route_to_destination">Нет доступного маршрута</string>
+    <!-- Text for CallFailCause.CHANNEL_UNACCEPTABLE = 6 -->
+    <string name="callFailed_channel_unacceptable">Недопустимый канал</string>
+    <!-- Text for CallFailCause.OPERATOR_DETERMINED_BARRING = 8 -->
+    <string name="callFailed_operator_determined_barring">Запрещены оператором</string>
+    <!-- Text for CallFailCause.NORMAL_CLEARING = 16 -->
+    <string name="callFailed_normal">Нормальное завершение вызова</string>
+    <!-- Text for CallFailCause.CALL_FAIL_NO_USER_RESPONDING = 18 -->
+    <string name="callFailed_no_user_responding">Абонент не отвечает</string>
+    <!-- Text for CallFailCause.CALL_FAIL_NO_ANSWER_FROM_USER = 19 -->
+    <string name="callFailed_no_answer_from_user">Оповещение пользователя, нет ответа</string>
+    <!-- Text for CallFailCause.CALL_REJECTED = 21 -->
+    <string name="callFailed_call_rejected">Вызов отклонен</string>
+    <!-- Text for CallFailCause.NUMBER_CHANGED = 22 -->
+    <string name="callFailed_number_changed">Номер изменён</string>
+    <!-- Text for CallFailCause.PREEMPTION = 25 -->
+    <string name="callFailed_preemption">Упреждение</string>
+    <!-- Text for CallFailCause.CALL_FAIL_DESTINATION_OUT_OF_ORDER = 27 -->
+    <string name="callFailed_destination_out_of_order">Заданное направление не обслуживается</string>
+    <!-- Text for CallFailCause.INVALID_NUMBER = 28 -->
+    <string name="callFailed_invalid_number_format">Неправильно набран номер</string>
+    <!-- Text for CallFailCause.FACILITY_REJECTED = 29 -->
+    <string name="callFailed_facility_rejected">Вызов отклонён</string>
+    <!-- Text for CallFailCause.STATUS_ENQUIRY = 30 -->
+    <string name="callFailed_resp_to_status_enquiry">Отвечать на запросы о состоянии</string>
+    <!-- Text for CallFailCause.NORMAL_UNSPECIFIED = 31 -->
+    <string name="callFailed_normal_unspecified">Нормальный, не уточнено</string>
+    <!-- Text for CallFailCause.TEMPORARY_FAILURE = 41 -->
+    <string name="callFailed_tempopary_failure">Временная ошибка</string>
+    <!-- Text for CallFailCause.SWITCHING_CONGESTION = 42 -->
+    <string name="callFailed_switching_equipment_congestion">Сеть перегружена</string>
+    <!-- Text for CallFailCause.ACCESS_INFORMATION_DISCARDED = 43 -->
+    <string name="callFailed_access_information_discarded">Запрос на доступ отклонён</string>
+    <!-- Text for CallFailCause.CHANNEL_NOT_AVAIL = 44 -->
+    <string name="callFailed_requested_circuit_or_channel_not_available">Запрашиваемая сеть недоступна</string>
+    <!-- Text for CallFailCause.RESOURCES_UNAVAILABLE_OR_UNSPECIFIED = 47 -->
+    <string name="callFailed_resources_unavailable_or_unspecified">Ресурс недоступен или не определён</string>
+    <!-- Text for CallFailCause.QOS_NOT_AVAIL = 49 -->
+    <string name="callFailed_QOS_unavailable">Качество обслуживания недоступно</string>
+    <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_SUBSCRIBED = 50 -->
+    <string name="callFailed_requested_facility_not_subscribed">Нет подписки на запрашиваемую услугу</string>
+    <!-- Text for CallFailCause.INCOMING_CALLS_BARRED_WITHIN_CUG = 55 -->
+    <string name="callFailed_incoming_calls_barred_within_CUG">Входящие вызовы ограничены в пределах закрытой абонентской группы</string>
+    <!-- Text for CallFailCause.BEARER_CAPABILITY_NOT_AUTHORIZED = 57 -->
+    <string name="callFailed_bearer_capability_not_authorized">Нет прав на обработку данных</string>
+    <!-- Text for CallFailCause.BEARER_NOT_AVAIL = 58 -->
+    <string name="callFailed_bearer_capability_unavailable">Обработка данных недоступна в настоящий момент</string>
+    <!-- Text for CallFailCause.SERVICE_OPTION_NOT_AVAILABLE = 63 -->
+    <string name="callFailed_service_option_not_available">Служба недоступна</string>
+    <!-- Text for CallFailCause.BEARER_SERVICE_NOT_IMPLEMENTED = 65 -->
+    <string name="callFailed_bearer_service_not_implemented">Обработка данных нереализована</string>
+    <!-- Text for CallFailCause.REQUESTED_FACILITY_NOT_IMPLEMENTED = 69 -->
+    <string name="callFailed_requested_facility_not_implemented">Затребованная услуга не реализована</string>
+    <!-- Text for CallFailCause.ONLY_DIGITAL_INFORMATION_BEARER_AVAILABLE = 70 -->
+    <string name="callFailed_only_digital_information_bearer_available">Доступ к информации ограничен</string>
+    <!-- Text for CallFailCause.SERVICE_OR_OPTION_NOT_IMPLEMENTED = 79 -->
+    <string name="callFailed_service_or_option_not_implemented">Сервис или опция неприменимы, или не определены</string>
+    <!-- Text for CallFailCause.INVALID_TRANSACTION_IDENTIFIER = 81 -->
+    <string name="callFailed_invalid_transaction_identifier">Недопустимое значение идентификатора транзакции</string>
+    <!-- Text for CallFailCause.USER_NOT_MEMBER_OF_CUG = 87 -->
+    <string name="callFailed_user_not_member_of_CUG">Абонент не является членом закрытой абонентской группы</string>
+    <!-- Text for CallFailCause.INCOMPATIBLE_DESTINATION = 88 -->
+    <string name="callFailed_incompatible_destination">Несовместимый адресат</string>
+    <!-- Text for CallFailCause.INVALID_TRANSIT_NW_SELECTION = 91 -->
+    <string name="callFailed_invalid_transit_NW_selection">Выбрана неверная транзитная сеть</string>
+    <!-- Text for CallFailCause.SEMANTICALLY_INCORRECT_MESSAGE = 95 -->
+    <string name="callFailed_semantically_incorrect_message">Семантически некорректное сообщение</string>
+    <!-- Text for CallFailCause.INVALID_MANDATORY_INFORMATION = 96 -->
+    <string name="callFailed_invalid_mandatory_information">Неверная обязательная информация</string>
+    <!-- Text for CallFailCause.MESSAGE_TYPE_NON_IMPLEMENTED = 97 -->
+    <string name="callFailed_message_type_non_implemented">Тип сообщения не существует или не поддерживается</string>
+    <!-- Text for CallFailCause.MESSAGE_TYPE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 98 -->
+    <string name="callFailed_message_type_not_compatible_with_protocol_state">Тип сообщения, несовместимый с состоянием протокола</string>
+    <!-- Text for CallFailCause.INFORMATION_ELEMENT_NON_EXISTENT = 99 -->
+    <string name="callFailed_information_element_non_existent">Информационный элемент не существует или не поддерживается</string>
+    <!-- Text for CallFailCause.CONDITIONAL_IE_ERROR = 100 -->
+    <string name="callFailed_conditional_IE_error">Условная ошибка соед. оборудования</string>
+    <!-- Text for CallFailCause.MESSAGE_NOT_COMPATIBLE_WITH_PROTOCOL_STATE = 101 -->
+    <string name="callFailed_message_not_compatible_with_protocol_state">Тип сообщения, несовместимый с состоянием протокола</string>
+    <!-- Text for CallFailCause.RECOVERY_ON_TIMER_EXPIRED = 102 -->
+    <string name="callFailed_recovery_on_timer_expired">Восстановлено по истечении таймера</string>
+    <!-- Text for CallFailCause.PROTOCOL_ERROR_UNSPECIFIED = 111 -->
+    <string name="callFailed_protocol_error_unspecified">Неизвестная ошибка протокола</string>
+    <!-- Text for CallFailCause.INTERWORKING_UNSPECIFIED = 127 -->
+    <string name="callFailed_interworking_unspecified">Нет согласования параметров передачи данных</string>
+    <!-- Text for CallFailCause.NON_SELECTED_USER_CLEARING = 26 -->
+    <string name="callFailed_non_selected_user_clearing">Очистка не задана пользователем</string>
+    <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialToDialVideo">Звонок преобразован в видеозвонок.</string>
+    <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialVideoToSs">Видеозвонок преобразован в SS-запрос.</string>
+    <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialVideoToUssd">Видеозвонок преобразован в USSD-запрос.</string>
+    <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialVideoToDial">Видеозвонок преобразован в обычный.</string>
+    <!-- In-call screen: call failure reason (call modified to call with modified data) -->
+    <string name="callFailed_dialVideoToDialVideo">Видеозвонок преобразован в видеозвонок с другим номером.</string>
 </resources>
